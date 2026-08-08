@@ -1,1 +1,15 @@
-GET http://localhost:3000/api/empleados
+
+
+
+
+
+
+POST http://localhost:3000/api/empleados
+Content-Type: application/json
+
+{
+  "name": "Santiago",
+  "position": "Experto",
+  "office": "Colombia",
+  "salary": 1000
+}
